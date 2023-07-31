@@ -1,4 +1,13 @@
-.body{
-    background-color:palevioletred;
-
+.container {
+    /* Torna o container um flex container */
+    display: flex;
 }
+
+.section {
+    flex: 1; /* Faz com que cada seção ocupe o mesmo espaço disponível */
+    padding: 40px; /* Adicione um espaçamento interno (padding) se desejar */
+    border: 1px solid #ddd; /* Apenas para visualização do tamanho das seções */
+}
+
+
+
